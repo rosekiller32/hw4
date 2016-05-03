@@ -1,0 +1,191 @@
+#wrapper {
+  height: 768px;
+  width: 991px;
+  padding-top: 50px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap; }
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    #wrapper {
+      width: 480px;
+      padding-top: 20px; } }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    #wrapper {
+      width: 768px;
+      padding-top: 30px; } }
+  @media screen and (max-width: 480px) {
+    #wrapper {
+      width: 350px;
+      padding-top: 10px; } }
+  #wrapper #nav-info {
+    width: 20%;
+    justify-content: center; }
+    @media screen and (max-width: 991px) {
+      #wrapper #nav-info {
+        display: flex;
+        width: 100%;
+        justify-content: space-between; } }
+    @media screen and (max-width: 480px) {
+      #wrapper #nav-info {
+        flex-wrap: wrap;
+        position: relative;
+        margin-bottom: 50px; } }
+    @media screen and (max-width: 480px) {
+      #wrapper #nav-info nav {
+        width: 100%;
+        font-size: 1.4rem; } }
+    #wrapper #nav-info .icon {
+      width: 100px;
+      margin-bottom: 10px; }
+      @media screen and (max-width: 768px) {
+        #wrapper #nav-info .icon {
+          width: 60px; }
+          #wrapper #nav-info .icon img {
+            width: 60px; } }
+      @media screen and (max-width: 480px) {
+        #wrapper #nav-info .icon {
+          position: absolute;
+          top: 30px;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          margin: auto; } }
+    #wrapper #nav-info ul {
+      padding: 0;
+      color: #60beae;
+      list-style-type: none; }
+      #wrapper #nav-info ul li {
+        font-size: 2rem;
+        text-align: left;
+        margin-bottom: 18px; }
+        @media screen and (min-width: 480px) and (max-width: 991px) {
+          #wrapper #nav-info ul li {
+            float: left;
+            font-size: 1.7rem;
+            padding-left: 20px; } }
+        @media screen and (max-width: 480px) {
+          #wrapper #nav-info ul li {
+            font-size: 1.4rem;
+            padding-left: 0px;
+            margin-left: 10px;
+            display: inline; } }
+    @media screen and (max-width: 991px) {
+      #wrapper #nav-info aside {
+        display: none; } }
+    #wrapper #nav-info aside aside h5 {
+      text-transform: uppercase;
+      font-size: 1rem; }
+    #wrapper #nav-info aside aside p {
+      font-size: 0.8rem;
+      margin-right: 100px; }
+  #wrapper #main {
+    width: 80%; }
+    @media screen and (max-width: 991px) {
+      #wrapper #main {
+        width: 100%; } }
+    #wrapper #main .hero-unit .pic {
+      background-image: url("discuss01.jpg");
+      background-size: cover;
+      position: relative;
+      height: 445px; }
+      @media screen and (max-width: 768px) {
+        #wrapper #main .hero-unit .pic {
+          height: 248px; } }
+      #wrapper #main .hero-unit .pic .title-box {
+        width: 600px;
+        bottom: 80px;
+        right: 0px;
+        font-size: 2.2rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        position: absolute; }
+        @media screen and (max-width: 480px) {
+          #wrapper #main .hero-unit .pic .title-box {
+            width: 350px;
+            bottom: -20px;
+            right: 0px;
+            font-size: 1rem;
+            position: absolute; } }
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+          #wrapper #main .hero-unit .pic .title-box {
+            width: 480px;
+            bottom: 0px;
+            right: 0px;
+            font-size: 1rem;
+            position: absolute; } }
+        #wrapper #main .hero-unit .pic .title-box #titleA {
+          font-size: 2.2rem;
+          text-align: center;
+          color: black;
+          width: 200px;
+          background-color: white;
+          padding: 15px; }
+          @media screen and (max-width: 768px) {
+            #wrapper #main .hero-unit .pic .title-box #titleA {
+              width: 100%;
+              text-align: left;
+              font-size: 1rem; } }
+        #wrapper #main .hero-unit .pic .title-box #titleB {
+          font-size: 2.2rem;
+          text-align: center;
+          width: 100%;
+          color: white;
+          background-color: black;
+          padding: 15px; }
+          @media screen and (max-width: 768px) {
+            #wrapper #main .hero-unit .pic .title-box #titleB {
+              text-align: left;
+              font-size: 1rem; } }
+    #wrapper #main .hero-unit #nd-nav {
+      display: flex; }
+      #wrapper #main .hero-unit #nd-nav .option {
+        background-color: #eff8f7;
+        text-align: center;
+        color: #60beae;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 25%;
+        border-right-style: solid;
+        border-color: #d9efec;
+        border-width: .5px; }
+        @media screen and (max-width: 768px) {
+          #wrapper #main .hero-unit #nd-nav .option {
+            display: none; } }
+        #wrapper #main .hero-unit #nd-nav .option h3 {
+          font-size: 2rem; }
+        #wrapper #main .hero-unit #nd-nav .option p {
+          font-size: 1rem; }
+      #wrapper #main .hero-unit #nd-nav .option:last-of-type {
+        border-width: 0px; }
+    #wrapper #main #archives {
+      display: flex; }
+      @media screen and (max-width: 768px) {
+        #wrapper #main #archives {
+          flex-wrap: wrap;
+          margin-top: 20px; } }
+      #wrapper #main #archives .arti-with-pic {
+        width: 25%;
+        margin: 10px; }
+        @media screen and (min-width: 480px) and (max-width: 768px) {
+          #wrapper #main #archives .arti-with-pic {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-right: 5px;
+            padding-left: 5px;
+            width: 50%;
+            margin: 0px; } }
+        @media screen and (max-width: 480px) {
+          #wrapper #main #archives .arti-with-pic {
+            width: 100%;
+            padding-top: 20px;
+            padding-bottom: 20px; } }
+        #wrapper #main #archives .arti-with-pic .title {
+          font-size: 1.8rem;
+          color: #60beae; }
+        #wrapper #main #archives .arti-with-pic .img {
+          width: 100%; }
+        #wrapper #main #archives .arti-with-pic .img img {
+          width: inherit; }
+
+/*# sourceMappingURL=dct.css.map */
